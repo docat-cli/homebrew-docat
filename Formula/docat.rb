@@ -5,10 +5,10 @@ class Docat < Formula
 
   if Hardware::CPU.intel?
     url "https://github.com/docat-cli/docat/releases/download/v#{version}/docat-mac-x86_64.tar.gz"
-    sha256 "3bd022d75adaef0f0c8bb7fd3040e27ca7d2c3d97253e6a5397412c6c23a189d"
+    sha256 "684956d614b4ae3aab39f301fcb94219410f9da5f9a86876a8bd7e7e0de85a7b"
   else
     url "https://github.com/docat-cli/docat/releases/download/v#{version}/docat-mac-arm64.tar.gz"
-    sha256 "2fe253e21dda8a098306bb1992cc6c9827d30f417756cc4b42a65e92e91fcdab"
+    sha256 "9ddc73f6b1d2d837a487e476d58b4e414555fc28729663e118012514db125321"
   end
 
   def install
