@@ -1,14 +1,14 @@
 class Docat < Formula
   desc "Docker Compose orchestration CLI tool"
   homepage "https://github.com/docat-cli/docat"
-  version "0.3.0"
+  version "0.3.1"
 
   if Hardware::CPU.intel?
     url "https://github.com/docat-cli/docat/releases/download/v#{version}/docat-mac-x86_64.tar.gz"
-    sha256 "bb6b0786b8e478aa5375eed5636710c8544998928072375623a0f469f796e80f"
+    sha256 "8d362497f513f5db03c71ec8c0408ed43028b05d3b5824c03e4058ccd4b7f387"
   else
     url "https://github.com/docat-cli/docat/releases/download/v#{version}/docat-mac-arm64.tar.gz"
-    sha256 "90ad35cf8908b66df17d1656d5ab94e1dfb2c2b3e8585e04efdb2befa3792eca"
+    sha256 "19db158b908eb68348f5ee6dcdb39d30d0d274580399edecf066a92950621cb3"
   end
 
   def install
